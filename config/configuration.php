@@ -15,11 +15,7 @@ class JConfig
          * Load environment configuration
          */
         $env = new \Dotenv\Dotenv(dirname(__DIR__));
-
-        if(getenv('JOOMLA_ENV') === false) {
-            $env->load();
-        }
-
+        $env->load();
         $env->required(['JOOMLA_DB_NAME'])->notEmpty();
         $env->required(['JOOMLA_DB_USER', 'JOOMLA_DB_PASS']);
 
