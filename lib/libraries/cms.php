@@ -31,7 +31,8 @@ if (!class_exists('JLoader'))
 JLoader::registerPrefix('J', JPATH_PLATFORM . '/cms', false, true);
 
 // Add the Composer autoloader
-require_once JPATH_VENDOR . '/autoload.php';
+$loader = require JPATH_VENDOR . '/autoload.php';
+$loader->setPsr4('Dotenv\\', JPATH_PLATFORM . '/phpdotenv/src');
 
 // Register the class aliases for Framework classes that have replaced their Platform equivilents
 require_once __DIR__ . '/classmap.php';

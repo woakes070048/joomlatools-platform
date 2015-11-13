@@ -46,8 +46,6 @@ if (!class_exists('JLoader'))
 	throw new RuntimeException('Joomla Platform not loaded.');
 }
 
-
-
 // Setup the autoloaders.
 JLoader::setup();
 

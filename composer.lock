@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "00cdff769fe4a30d5511cafd79d78c6d",
+    "hash": "4266b6ecd352e703a86e22d36b7e7288",
     "packages": [
         {
             "name": "joomla/application",
@@ -352,12 +352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joomlatools/joomla-console.git",
-                "reference": "d32422cb94709afbb91c277fae3752f5c5b39e46"
+                "reference": "bc1ee2a89e054ba40aff9681dfaf413045b43c59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joomlatools/joomla-console/zipball/d32422cb94709afbb91c277fae3752f5c5b39e46",
-                "reference": "d32422cb94709afbb91c277fae3752f5c5b39e46",
+                "url": "https://api.github.com/repos/joomlatools/joomla-console/zipball/bc1ee2a89e054ba40aff9681dfaf413045b43c59",
+                "reference": "bc1ee2a89e054ba40aff9681dfaf413045b43c59",
                 "shasum": ""
             },
             "require": {
@@ -390,7 +390,7 @@
                 "joomla",
                 "tools"
             ],
-            "time": "2015-09-01 22:39:46"
+            "time": "2015-09-02 09:49:44"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -488,12 +488,12 @@
             "version": "v2.7.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Console.git",
+                "url": "https://github.com/symfony/console.git",
                 "reference": "d6cf02fe73634c96677e428f840704bfbcaec29e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/d6cf02fe73634c96677e428f840704bfbcaec29e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d6cf02fe73634c96677e428f840704bfbcaec29e",
                 "reference": "d6cf02fe73634c96677e428f840704bfbcaec29e",
                 "shasum": ""
             },
@@ -539,65 +539,12 @@
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
             "time": "2015-07-28 15:18:12"
-        },
-        {
-            "name": "vlucas/phpdotenv",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "4c619d36c7158138ef22b1066f836043629297d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/4c619d36c7158138ef22b1066f836043629297d7",
-                "reference": "4c619d36c7158138ef22b1066f836043629297d7",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Dotenv\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Vance Lucas",
-                    "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
-                }
-            ],
-            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "homepage": "http://github.com/vlucas/phpdotenv",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2015-08-18 21:06:42"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "vlucas/phpdotenv": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
